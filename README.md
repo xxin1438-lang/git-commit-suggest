@@ -92,7 +92,7 @@ chore(config)：新增 db-schema-diff 配置示例与 gitignore 规则
 
 ### 输出格式示例
 
-```
+````
 ## 批次 1：flowToken → flowId 映射持久化
 
 **范围**：在发送 Flow 模版/互动消息时建立映射并持久化，供 webhook 回调归因使用
@@ -108,7 +108,7 @@ git add genex-business-service/.../FlowTokenMappingMapper.java \
 git commit -m "feat(business)：新增 flowToken → flowId 映射持久化与 DAO 层" \
            -m "发送 Flow 消息时落库映射关系，webhook 回调缺少 flowId 时通过 flowToken 反查恢复"
 ```
-```
+````
 
 ---
 
@@ -191,7 +191,7 @@ chore(config): add db-schema-diff config examples and gitignore rules
 
 ### Output Format
 
-```
+````
 ## Batch 1: flowToken → flowId mapping persistence
 
 **Scope**: Persist token-to-ID mapping when sending Flow messages for webhook attribution
@@ -207,7 +207,7 @@ git add genex-business-service/.../FlowTokenMappingMapper.java \
 git commit -m "feat(business): add flowToken → flowId mapping persistence and DAO layer" \
            -m "Persists token mapping on Flow message send; webhook handler falls back to flowToken lookup when flowId is absent"
 ```
-```
+````
 
 ### Prerequisites
 
